@@ -1,61 +1,55 @@
-<svg width="1700" height="400" viewBox="0 0 1700 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1700" height="400" viewBox="0 0 1700 400" xmlns="http://www.w3.org/2000/svg">
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+  <!-- Text -->
+  <text
+    x="20"
+    y="255"
+    font-family="Poppins, Arial, sans-serif"
+    font-size="230"
+    font-weight="800"
+    letter-spacing="-6"
+    fill="#4A67F5">
+    Resumer
+  </text>
 
-.text{
-  font-family:'Poppins',sans-serif;
-  font-size:230px;
-  font-weight:800;
-  fill:#4A67F5;
-  letter-spacing:-6px;
-}
-</style>
+  <!-- Verify Badge -->
+  <g transform="translate(1290,40)">
 
-<!-- Text -->
-<text x="20" y="255" class="text">Resumer</text>
+    <path d="
+      M120 0
+      L145 25
+      L182 18
+      L190 55
+      L225 65
+      L218 102
+      L245 120
+      L218 138
+      L225 175
+      L190 185
+      L182 222
+      L145 215
+      L120 240
+      L95 215
+      L58 222
+      L50 185
+      L15 175
+      L22 138
+      L0 120
+      L22 102
+      L15 65
+      L50 55
+      L58 18
+      L95 25
+      Z"
+      fill="#4A67F5"/>
 
-<!-- Verify Badge -->
-<g transform="translate(1290,40)">
-  
-  <!-- Badge -->
-  <path d="
-    M120 0
-    L145 25
-    L182 18
-    L190 55
-    L225 65
-    L218 102
-    L245 120
-    L218 138
-    L225 175
-    L190 185
-    L182 222
-    L145 215
-    L120 240
-    L95 215
-    L58 222
-    L50 185
-    L15 175
-    L22 138
-    L0 120
-    L22 102
-    L15 65
-    L50 55
-    L58 18
-    L95 25
-    Z
-  " fill="#4A67F5"/>
+    <path
+      d="M75 123L108 156L175 88"
+      stroke="white"
+      stroke-width="24"
+      stroke-linecap="round"
+      stroke-linejoin="round"/>
 
-  <!-- Check -->
-  <path
-    d="M75 123L108 156L175 88"
-    stroke="white"
-    stroke-width="24"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-  />
-
-</g>
+  </g>
 
 </svg>
