@@ -1,55 +1,72 @@
-<svg width="1700" height="400" viewBox="0 0 1700 400" xmlns="http://www.w3.org/2000/svg">
+# Resumer Verified Logo (SVG)
+
+```svg
+<svg width="1600" height="400" viewBox="0 0 1600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4F6DFF"/>
+      <stop offset="100%" stop-color="#2F54EB"/>
+    </linearGradient>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#1E3A8A" flood-opacity="0.18"/>
+    </filter>
+  </defs>
 
   <!-- Text -->
   <text
     x="20"
-    y="255"
-    font-family="Poppins, Arial, sans-serif"
-    font-size="230"
-    font-weight="800"
-    letter-spacing="-6"
-    fill="#4A67F5">
+    y="285"
+    font-family="Poppins, Montserrat, Arial, sans-serif"
+    font-size="290"
+    font-weight="900"
+    letter-spacing="-8"
+    fill="url(#blueGradient)">
     Resumer
   </text>
 
-  <!-- Verify Badge -->
-  <g transform="translate(1290,40)">
-
-    <path d="
-      M120 0
-      L145 25
-      L182 18
-      L190 55
-      L225 65
-      L218 102
-      L245 120
-      L218 138
-      L225 175
-      L190 185
-      L182 222
-      L145 215
-      L120 240
-      L95 215
-      L58 222
-      L50 185
-      L15 175
-      L22 138
-      L0 120
-      L22 102
-      L15 65
-      L50 55
-      L58 18
-      L95 25
-      Z"
-      fill="#4A67F5"/>
-
+  <!-- Verified Badge -->
+  <g transform="translate(1280 55)" filter="url(#softShadow)">
+    <!-- Star Shape -->
     <path
-      d="M75 123L108 156L175 88"
+      d="M120 0
+         L148 28
+         L188 18
+         L205 55
+         L245 60
+         L240 102
+         L270 130
+         L245 158
+         L250 200
+         L210 205
+         L193 242
+         L153 232
+         L125 260
+         L97 232
+         L57 242
+         L40 205
+         L0 200
+         L5 158
+         L-25 130
+         L5 102
+         L0 60
+         L40 55
+         L57 18
+         L97 28
+         Z"
+      fill="url(#blueGradient)"/>
+
+    <!-- White Check -->
+    <path
+      d="M78 132
+         L112 166
+         L180 92"
       stroke="white"
       stroke-width="24"
       stroke-linecap="round"
       stroke-linejoin="round"/>
-
   </g>
-
 </svg>
+```
+
+This SVG recreates the bold blue “Resumer” text with a Meta-style verified badge in scalable vector format.
